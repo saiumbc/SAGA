@@ -137,7 +137,7 @@ This dataset was primarily built to advance research goal reasoning capabilities
 We compare models using both prompting and fine-tuning (with both the actual and alternate training data) to generate a participant's overarching goal.  We evaluated the generated goals using automated metrics and also a human evaluation ofcriteria such as coherence, explainability, intentionality, truthfulness and faithfulness of the goal for the given story participant's actions.  Here we present the human evaluation scores and refer you to the paper for automated evaluation scores such as Rouge, BLEU, etc.
 
 | Model      | Prompt Type | Coherence     | Explainability | Intentionality | Faithfulness | Truthfulness |
-|     :---:  |   :---:    |  :---: | :---: | :---: |
+|     :---:  |   :---:    |  :---: | :---: | :---: | :---: | :---: |
 | Reference        |  -     | 4.61 | 4.54 | 4.39 | 4.68 | 4.73 |
 | Flan-T5-base     | 3-shot | 3.91 | 4.12 | 3.74 | 4.32 | 4.22 |
 | Flan-T5-XXL      | 3-shot | 4.35 | 4.50 | 4.00 | 4.71 | 4.66 |
